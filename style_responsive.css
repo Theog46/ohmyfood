@@ -1,0 +1,244 @@
+/* MEDIA SMARTPHONE LANDSCAPE */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	/* MAIN PAGE */
+	#corps1, #corps2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: -2%;
+	}
+
+	section {
+		margin-top: 15%;
+	}
+
+	#prochainement {
+		width: 60%;
+		margin-left: 21%;
+	}
+
+	.note_home {
+		width: 25%;
+	}
+
+	.chic {
+		font-size: 1.2em;
+	}
+
+	.delice {
+		font-size: 1.6em;
+	}
+
+	.palette {
+		font-size: 1.8em;
+	}
+
+	/* NOTE PAGE */
+	#note_corps, #palette_corps {
+		height: 100%;
+		width: 94%;
+		margin-left: 3%;
+		font-size: 0.8em;
+	}
+
+	.note_bar1, .note_bar2, .note_bar3, .note_bar_turn1, .note_bar_turn2, .note_bar_turn3 {
+		height: 30%;
+		width: 60%;
+	}
+
+	#note_title {
+		font-size: 1.8em;
+	}
+
+	.sub_notemenu_title {
+		display: flex;
+		text-align: center;
+	}
+
+	.underline_note_entree:after {
+		left: 40%;
+	}
+
+	.underline_note_entree:hover:after {
+		width: 21%;
+		left: 40%;
+	}
+
+	.underline_note_plat:after, .underline_note_dessert:after {
+		left: 40%;
+	}
+
+	.underline_note_plat:hover:after, .underline_note_dessert:hover:after {
+		left: 40%;
+		width: 22%;
+	}
+
+	.underline_note_dessert:after {
+		height: 3px;
+	}
+
+	/* CHIC PAGE */
+
+
+	.sub_chicmenu_title {
+		font-size: 1em;
+	}
+
+	#chic_corps {
+		width: 94%;
+		margin-left: 3%;
+	}
+
+	.chic_title {
+		display: flex;
+		text-align: center;
+	}
+
+	.chic_bar_orange, .chic_bar_orange_turn, .chic_bar_blue, .chic_bar_blue_turn, .chic_bar_violet, .chic_bar_violet_turn {
+		height: 0.25em;
+	}
+
+	.underline_chic_entree:after, .underline_chic_dessert:after {
+		left: 25%;
+	}
+
+	.underline_chic_entree:hover:after, .underline_chic_dessert:hover:after {
+		left: 25%;
+		width: 51%;
+	}
+
+	.underline_chic_plat:after {
+		left: 31%;
+	}
+
+	.underline_chic_plat:hover:after {
+		left: 31%;
+		width: 38%;
+	}
+
+	/* DELICE MENU */
+	#delice_corps {
+		height: 80%;
+		width: 94%;	
+		margin-left: 3%;
+	}
+
+	.delice_bar_dark, .delice_bar_dark_turn, .delice_bar_medium, .delice_bar_medium_turn, .delice_bar_light, .delice_bar_light_turn {
+		height: 0.4em;
+		width: 4em;
+		margin-top: 2%;
+	}
+
+	.delice_title, .sub_delicemenu_title {
+		display: flex;
+		text-align: center;
+	}
+
+	.underline_delice_entree:after, .underline_delice_plat:after, .underline_delice_dessert:after {
+		left: 30%;
+	}
+
+	.underline_delice_entree:after {
+		height: 3px;
+	}
+
+	.underline_delice_entree:hover:after, .underline_delice_plat:hover:after, .underline_delice_dessert:hover:after {
+		left: 30%;
+		width: 41%;
+	}
+
+	/* PALETTE MENU */
+	.palette_bar1, .palette_bar_turn1, .palette_bar2, .palette_bar_turn2, .palette_bar3, .palette_bar_turn3 {
+		width: 8em;
+	}
+
+	.sub_palettemenu_title {
+		display: flex;
+		text-align: center;
+	}
+
+	.underline_palette_entree:after, .underline_palette_plat:after {
+		left: 40%;
+	}
+
+	.underline_palette_entree:hover:after, .underline_palette_plat:hover:after {
+		left: 40%;
+		width: 20%;
+	}
+
+	.underline_palette_dessert:after {
+		left: 38%;
+	}
+
+	.underline_palette_dessert:hover:after {
+		left: 38%;
+		width: 24%;
+	}
+
+	#note, #chic, #palette, #delice {
+		width: 120%;
+	}
+}
+
+/* MEDIA TABLETTE LANDSCAPE */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+	/* MAIN PAGE */
+	#note, #chic, #palette, #delice {
+		white-space: nowrap;
+		margin-left: 10%;
+		margin-bottom: 5%;
+	}
+
+	#corps1, #corps2 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: -3%;
+	}
+
+	#prochainement {
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	/* MENUS PAGES */
+	#note_corps, #chic_corps, #delice_corps, #palette_corps {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+/* MEDIA PORTABLE COMPUTER LANDSCAPE */
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+
+	/* MAIN PAGE */
+	#note, #chic, #delice, #palette {
+		width: 40%;
+	}
+
+	.chic {
+		font-size: 1.3em;
+	}
+
+	.delice {
+		font-size: 1.8em;
+	}
+
+	/* MENUS PAGES */
+	#note_corps, #chic_corps, #delice_corps, #palette_corps {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	/* NOTE PAGE */
+	.note_bar3 {
+		margin-left: -3%;
+	}
+
+	.note_bar_turn3 {
+		margin-right: -3%;
+	}
+}
+
